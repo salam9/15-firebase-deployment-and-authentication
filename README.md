@@ -228,6 +228,8 @@ Now that you know how to generate a full-stack application with the Firebase and
 
 [Firebase Hosting Documentation](https://console.firebase.google.com/u/0/project/korn-firebase-app-marc/hosting)
 
+> `cd` into `firebase-crud-deployment-starter` if you want to start with a completed app. Make sure that you have your configuration object in `keys.js`.
+
 1. In the browser, go to your Firebase Project Dashboard from the last class. Click on the nav in the upper left corner and select Hosting:.
 
 	![](https://i.imgur.com/EY8WBFl.png)
@@ -246,14 +248,32 @@ Now that you know how to generate a full-stack application with the Firebase and
 1. Make sure that you `cd` into your project folder where your 	`index.html` lives. We'll walk through these commands:
 
 	![](https://i.imgur.com/U04KSHd.png)
+
+1. Run `firebase login`. Enter your email and password when requested.
 	
 	
-1. Firbase will give you several options on the command line to initialize your project. We will walk through them.
-
-	![](https://i.imgur.com/Th5F53T.png)
+1. Next, run `firebase init`. Firebase will give you several options on the command line to initialize your project. We will walk through them. First, choose the Hosting option and press enter:
 
 
+	![](https://i.imgur.com/sYfrtOF.png)
 
+1. Select the Firebase project you created last class:
+
+	![](https://i.imgur.com/8DpqTD5.png)
+	
+1. We want to use the directory with our `index.html` as our public directory. For "What do you want to use for your public directory?", put a `.` and press enter.
+
+	Select `yes` to configure as a single page application. 
+
+
+	![](https://i.imgur.com/LF1zuvk.png)
+
+1. Before we offically deploy, it's a good idea to double check that our app is free from errors. The command `firebase serve` will start a local server to test our app. Go to `localhost:5000` to check your app in the browser.
+
+	![](https://i.imgur.com/zYWwYNF.png)
+
+
+1. When you're ready to deploy, run `firebase deploy`.
 
 
 <br>
