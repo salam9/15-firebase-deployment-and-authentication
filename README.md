@@ -35,7 +35,11 @@ _Before this lesson, students should already be able to:_
 <a name = "opening"></a>
 ## Introduction (15 min)
 
-So far everything we have developed has been developed _locally_, meaning what we've been building exists solely on our machines. Though we ultimately want to share our beautiful programs with the world, it is important to first develop our ideas in a local environment. Why do you think that is? For one, developing locally requires a lot less. For example, we don't even need an internet connection to be able to see our programs render! Also, why would we want to push brand spanking new code live to a production environment for all the world to see? Undoubtedly, we're going to want to make some changes and we don't need our users seeing every iteration of our thought process in their browsers. Yet, possibly the biggest reason programmers develop locally is for the mere fact that we can better control the environment we are working in. That is to say, it's easier to determine what allows the program to work as well as what is causing it issues. Once you _deploy_ your code into the world, your program enters a _production_ environment where more outside variables are bound to exist, variables we must account for in order to have a successful deployment. However, don't let the production world intimidate you, today's lesson seeks to take your skills to the next level as we learn to deploy and deploy well. By the end of this lesson you will be able to successfully push your code for the world to see and further, you'll understand the mechanics of how deployment and hosting work.
+So far everything we have developed has been developed _locally_, meaning what we've been building exists solely on our machines. Though we ultimately want to share our beautiful programs with the world, it is important to first develop our ideas in a local environment. Why do you think that is? 
+
+For one, developing locally requires a lot less. For example, we don't even need an internet connection to be able to see our programs render! Also, why would we want to push brand spanking new code live to a production environment for all the world to see? 
+
+Undoubtedly, we're going to want to make some changes and we don't need our users seeing every iteration of our thought process in their browsers. Yet, possibly the biggest reason programmers develop locally is for the mere fact that we can better control the environment we are working in. That is to say, it's easier to determine what allows the program to work as well as what is causing it issues. Once you _deploy_ your code into the world, your program enters a _production_ environment where more outside variables are bound to exist, variables we must account for in order to have a successful deployment. However, don't let the production world intimidate you, today's lesson seeks to take your skills to the next level as we learn to deploy and deploy well. By the end of this lesson you will be able to successfully push your code for the world to see and further, you'll understand the mechanics of how deployment and hosting work.
 
 ---
 
@@ -51,6 +55,9 @@ Over the time of this course we have come to learn how to build two different ty
 The reason we need to differentiate between these types of programs, static sites and applications, is because there are a plethora of hosting options out there who are all best suited to host one of these types of programs, but not both. We will cover a host provider for each type.
 
 ---
+
+<details>
+<summary>GH Pages and Heroku Deployment</summary>
 
 <a name = "demo1"></a>
 ## Deploy with GitHub Pages - Demo (30 min)
@@ -217,12 +224,14 @@ $ git push heroku master
 <a name = "lab2"></a>
 ## Customize Your Heroku/Firebase Application: Independent Practice (35 min)
 
-Now that you know how to generate a full-stack application with the Firebase and how to host it on Heroku, practice customizing the application! Technically, we have built a Firebase hosted server-side API that we've been pinging from our app's front-end, but ff you would like explore how to use Firebase solely on the server-side of this application feel free to checkout [this](https://www.npmjs.com/package/firebase) tutorial, but more importantly, take this time to practice what you've just learned and to customize your app. After you make some changes that you'd like to be reflected in production (in the browser) practicing running the proper commands to push the proper remotes from the app's path in your terminal.
+Now that you know how to generate a full-stack application with the Firebase and how to host it on Heroku, practice customizing the application! Technically, we have built a Firebase hosted server-side API that we've been pinging from our app's front-end, but if you would like explore how to use Firebase solely on the server-side of this application feel free to checkout [this](https://www.npmjs.com/package/firebase) tutorial, but more importantly, take this time to practice what you've just learned and to customize your app. After you make some changes that you'd like to be reflected in production (in the browser) practicing running the proper commands to push the proper remotes from the app's path in your terminal.
 
 <br>
 
 ---
 <a name = "lab2"></a>
+
+</details>
 
 ## Firebase Deployment
 
