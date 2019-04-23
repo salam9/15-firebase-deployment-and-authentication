@@ -264,9 +264,11 @@ Now that you know how to generate a full-stack application with the Firebase and
 1. We want to use the directory with our `index.html` as our public directory. For "What do you want to use for your public directory?", put a `.` and press enter.
 
 	Select `yes` to configure as a single page application. 
+	
+	**Do not** overwrite your `index.html` file, so enter `N`.
 
 
-	![](https://i.imgur.com/LF1zuvk.png)
+	![](https://i.imgur.com/IShDPOK.png)
 
 1. Before we offically deploy, it's a good idea to double check that our app is free from errors. The command `firebase serve` will start a local server to test our app. Go to `localhost:5000` to check your app in the browser.
 
@@ -274,6 +276,12 @@ Now that you know how to generate a full-stack application with the Firebase and
 
 
 1. When you're ready to deploy, run `firebase deploy`.
+
+	![](https://i.imgur.com/b0HoRVC.png)
+
+1. Your Firebase Hosting Dashboard should look like so:
+
+	![](https://i.imgur.com/BS1P80j.png)
 
 
 <br>
