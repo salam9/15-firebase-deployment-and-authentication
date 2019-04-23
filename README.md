@@ -294,6 +294,34 @@ Now that you know how to generate a full-stack application with the Firebase and
 
 
 <br>
+
+
+---
+
+## Firebase Authentication
+
+
+- [Firebase with Auth solution - fyi, it's in the starter-code](https://github.com/misk-jsd2/14-intro-to-crud-and-firebase/tree/auth/starter-code)
+- [Firebase Auth Templates](https://github.com/firebase/quickstart-js/tree/b846fa4407d65fc28bf479f4d905423d78c0d816/auth)
+- [Firebase Email and Password Template](https://github.com/firebase/quickstart-js/blob/b846fa4407d65fc28bf479f4d905423d78c0d816/auth/email-password.html)
+- [Firebase Auth Docs](https://firebase.google.com/docs/auth/web/firebaseui?authuser=0)
+
+
+1. Choose Authentication from your Firebase Project Dashboard then select the Sign-in Method Tab. Click on Email/Password.
+
+	![](https://i.imgur.com/iivAuKJ.png)
+	
+1. Select Enable and Save.
+
+	![](https://i.imgur.com/MsFER7H.png)
+	
+1. You can customize emails for Sign Up, Password Reset, etc.
+
+	![](https://i.imgur.com/rRwAmyd.png)
+	
+<br>
+
+
 ---
 <a name = "conclusion"></a>
 ## Conclusion (5 min)
